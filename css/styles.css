@@ -59,10 +59,13 @@ ul {
   background-color: var(--primary-white-color);
   text-decoration: none;
 }
+.studio a,
+.portfolio a {
+  color: var(--accent-color);
+}
 .navigation:hover a,
 .navigation:focus a,
-.navigation:active a,
-.navigation:visited a {
+.navigation:active a {
   color: var(--accent-color);
 }
 .address-header a {
