@@ -14,6 +14,7 @@
   --footer-text-links: rgba(255, 255, 255, 0.6);
   --title-bcg-color: #2f303a;
   --primary-bcg-color: #f5f4fa;
+  --logo-primary-header: #000000;
 }
 
 body {
@@ -39,7 +40,7 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--logo-primary-header);
   text-decoration: none;
 }
 .logo-footer {
@@ -156,6 +157,8 @@ ul {
   background-color: var(--primary-bcg-color);
 }
 .names h3 {
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 3%;
   color: var(--title-text-color);
